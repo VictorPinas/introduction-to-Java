@@ -6,6 +6,11 @@ class Fogao{
        on = ligar;
    }
    
+   void desligar(boolean desligar){
+     if(on)
+       on = desligar;
+   }
+
    void aumentarFogo(int fogoMais){
       fogo = fogo + fogoMais;
    }
@@ -15,7 +20,8 @@ class Fogao{
    }
    
    void printStates(){
-       System.out.println("Ligado: " + on +
-       " temperatura da chama: " + fogo + "ºC");
+       System.out.print("Ligado: " + on +
+       " temperatura da chama: " + fogo + "ºC " + 
+       " Desligado: " + on);
    }
 }
