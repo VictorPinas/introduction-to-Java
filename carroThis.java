@@ -14,6 +14,19 @@ public class carroThis{
   
   public carroThis(boolean ligar, boolean desligar, boolean farol, boolean sinal){
     this(false, false, false, false, ligar, desligar, farol, sinal);
+  }
+  
+  public carroThis(int velocidade, int aceleracao, int diminuir, int frear){
+    this.velocidade = velocidade;
+    this. aceleracao = aceleracao;
+    this.diminuir = diminuir;
+    this.frear = frear;
+  }
+  public carroThis(boolean ligar, boolean desligar, boolean farol, boolean sinal){
+   this.ligar = ligar;
+   this.desligar = desligar;
+   this.farol = farol;
+   this.sinal = sinal;
   }  
   
 }
