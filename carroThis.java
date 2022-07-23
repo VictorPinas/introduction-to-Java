@@ -9,9 +9,9 @@ public class carroThis{
    this.frear = frear;
   }
   
-  public int movimento(int velocidade, int aceleracao, int diminuir, int frear){
-    this(0, 0, 0, 0, velocidade, aceleracao, diminuir, frear);
-  }
+  //public int movimento(int velocidade, int aceleracao, int diminuir, int frear){
+    //this(0, 0, 0, 0, velocidade, aceleracao, diminuir, frear);
+  //}
   
   public int iniciarMovimento(int velocidade, int aceleracao, int diminuir, int frear){
     this.velocidade = velocidade;
@@ -19,5 +19,8 @@ public class carroThis{
     this.diminuir = diminuir;
     this.frear = frear;
   }
-  
+  return velocidade;
+  return aceleracao;
+  return diminuir;
+  return frear;  
 }
