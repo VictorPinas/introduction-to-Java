@@ -1,8 +1,8 @@
 public class carroThis{
-   int velocidade = 40;
-   int aceleracao = 60;
-   int diminuir = 10;
-   int frear = 0;
+   int velocidade;
+   int aceleracao;
+   int diminuir;
+   int frear;
    
   //operador this em um construtor
    public carroThis(int velocidade, int aceleracao, int diminuir, int frear){
