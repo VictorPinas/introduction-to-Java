@@ -12,13 +12,6 @@ public class carroThis{
       this.frear = frear;
    }
   
-   public int iniciarMovimento(int velocidade, int aceleracao, int diminuir, int frear){
-      this.velocidade = velocidade;
-      this. aceleracao = aceleracao;
-      this.diminuir = diminuir;
-      this.frear = frear;
-   }
-  
    void exibirMovimento(){
       System.out.println(velocidade + ", " + aceleracao + ", " + diminuir + ", " + frear);
    }
