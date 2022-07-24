@@ -13,7 +13,7 @@ public class carroThis{
     //this(0, 0, 0, 0, velocidade, aceleracao, diminuir, frear);
   //}
   
-   public static void iniciarMovimento(int velocidade, int aceleracao, int diminuir, int frear){
+   public iniciarMovimento(int velocidade, int aceleracao, int diminuir, int frear){
       this.velocidade = velocidade;
       this. aceleracao = aceleracao;
       this.diminuir = diminuir;
