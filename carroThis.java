@@ -1,17 +1,16 @@
 public class carroThis{
-   public static void (int velocidade, int aceleracao, int diminuir, int frear);
-  
+   int velocidade = 40;
+   int aceleracao = 60;
+   int diminuir = 10;
+   int frear = 0;
+   
   //operador this em um construtor
-   public carroThis(){
+   public carroThis(int velocidade, int aceleracao, int diminuir, int frear){
       this.velocidade = velocidade;
       this.aceleracao = aceleracao;
       this.diminuir = diminuir;
       this.frear = frear;
    }
-  
-  //public int movimento(int velocidade, int aceleracao, int diminuir, int frear){
-    //this(0, 0, 0, 0, velocidade, aceleracao, diminuir, frear);
-  //}
   
    public int iniciarMovimento(int velocidade, int aceleracao, int diminuir, int frear){
       this.velocidade = velocidade;
@@ -21,7 +20,7 @@ public class carroThis{
    }
   
    void exibirMovimento(){
-      System.out.println(velocidade + aceleracao + diminuir + frear);
+      System.out.println(velocidade + ", " + aceleracao + ", " + diminuir + ", " + frear);
    }
-   //return exibirMovimento;
+   
 }
