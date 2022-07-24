@@ -1,5 +1,5 @@
 public class carroThis{
-   public static (int velocidade, aceleracao, diminuir, frear);
+   public static void (int velocidade, int aceleracao, int diminuir, int frear);
   
   //operador this em um construtor
    public carroThis(){
@@ -13,7 +13,7 @@ public class carroThis{
     //this(0, 0, 0, 0, velocidade, aceleracao, diminuir, frear);
   //}
   
-   public iniciarMovimento(int velocidade, int aceleracao, int diminuir, int frear){
+   public int iniciarMovimento(int velocidade, int aceleracao, int diminuir, int frear){
       this.velocidade = velocidade;
       this. aceleracao = aceleracao;
       this.diminuir = diminuir;
