@@ -12,6 +12,11 @@ public class carroThis{
       this.frear = frear;
    }
    public static void main(String[] args){
-    System.out.println(velocidade + ", " + aceleracao + ", " + diminuir + ", " + frear);
-  }
+    CarroThis carroThis = new carroThis(velocidade, aceleracao, diminuir, frear);
+    
+    System.out.println(carroThis.velocidade);
+    System.out.println(carroThis.aceleracao);
+    System.out.println(carroThis.diminuir);
+    System.out.println(carroThis.frear);
+   }
 }

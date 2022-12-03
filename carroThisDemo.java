@@ -1,10 +1,10 @@
 public class carroThisDemo{
   public static void main(String[] args){
-    CarroThis carroThis = new CarroThis();
+    CarroThis carroThis = new CarroThis(velocidade, aceleracao, diminuir, frear);
     
-    carroThis.velocidade(80);
-    carroThis.aceleracao(10);
-    carroThis.diminuir(15);
-    carroThis.frear(0);
+    System.out.println(carroThis.velocidade);
+    System.out.println(carroThis.aceleracao);
+    System.out.println(carroThis.diminuir);
+    System.out.println(carroThis.frear);
   }
 }
