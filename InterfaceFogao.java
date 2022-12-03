@@ -1,11 +1,11 @@
 //Fogao com a interface implementada
 public class InterfaceFogao implements FogaoInterface{
  
- boolean ligar = False;
+ boolean ligar = false;
  int temperature = 0;
  
  void ligarFogao(boolean ligar){
-   ligar = True;
+   ligar = true;
  }
  
  void aumentarTemp(int aumentar){
