@@ -1,11 +1,13 @@
 //Fogao com a interface implementada
-public class InterfaceFogao implements FogaoInterface{
+public class CapivaraFogao implements FogaoCapi{
  
  boolean ligar = false;
  int temperature = 0;
  
  //os métodos precisam da palavra chave public
  //senão acusa o seguinte erro: attempting to assign weaker access privileges; was public
+ //regra: a classe que implementa deve ter os métodos public
+ //senão o método fica invisível para a interfac
  public void ligarFogao(boolean ligar){
    ligar = true;
  }
