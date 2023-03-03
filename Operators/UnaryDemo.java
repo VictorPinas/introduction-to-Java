@@ -11,6 +11,8 @@ class UnaryDemo{
     result++;
     //result is now -1
     System.out.println(result);
+    //result is now -2
+    System.out.println(~result);
     
     boolean sucess = false;
     //false
