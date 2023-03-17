@@ -15,11 +15,15 @@ public class carroThis {
    }
 
    public static void main(String[] args) {
+      // faltou instanciar os campos aqui
       int velocidade = 100;
       int aceleracao = 10;
       int diminuir = 5;
       int frear = 0;
-
+      
+      // Senão, ele avisa que variaveis não estáticas não podem ser referenciadas
+      // em um contexto estático
+      // porque o compilador não encontrou dentro do método main
       carroThis carroThis = new carroThis(velocidade, aceleracao, diminuir, frear);
 
       System.out.println(carroThis.velocidade);
